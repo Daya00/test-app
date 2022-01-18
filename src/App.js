@@ -27,10 +27,8 @@ const DUMMY_EXPNESE = [
 
 
 function App() {
-
   const [expenseState, setExpense] = useState(DUMMY_EXPNESE);
-
-  const addExpenseHandler = expense => {        
+  const addExpenseHandler = expense => {           
     setExpense((preExpense) => { return [expense, ...preExpense] });
     console.log(expenseState);
   }
@@ -43,7 +41,5 @@ function App() {
     </div>
   );
 }
-
-
 
 export default App;
