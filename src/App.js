@@ -37,6 +37,7 @@ function App() {
 
   return (
     <div>
+      <h2>Higher</h2>
       <NewExpense onAddExpense={addExpenseHandler} />      
       <Expenses items={DUMMY_EXPNESE}></Expenses>
     </div>
