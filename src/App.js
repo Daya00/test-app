@@ -39,7 +39,7 @@ function App() {
     <div>
       <h2>Higher</h2>
       <NewExpense onAddExpense={addExpenseHandler} />      
-      <Expenses items={DUMMY_EXPNESE}></Expenses>
+      <Expenses items={expenseState}></Expenses>
     </div>
   );
 }
